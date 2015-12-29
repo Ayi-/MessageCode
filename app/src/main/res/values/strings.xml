@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MessageCode</string>
+    <string name="sender">发件人：</string>
+    <string name="sendate">日期：</string>
+    <string name="code">验证码：</string>
+</resources>

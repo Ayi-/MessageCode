@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/sender"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_sendertext"
+             />
+        <TextView
+            android:id="@+id/tv_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_sendertext"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/sendate"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_datetext"
+            android:layout_below="@id/tv_sendertext"
+
+            android:layout_toLeftOf="@+id/tv_sender"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/tv_datetext"
+            android:layout_toRightOf="@+id/tv_datetext"
+            android:layout_alignRight="@+id/tv_sender"
+            android:layout_alignEnd="@+id/tv_sender" />
+
+            <TextView
+                android:id="@+id/tv_codetext"
+                android:layout_width="wrap_content"
+                android:text="@string/code"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_datetext"
+                android:layout_alignRight="@+id/tv_datetext"
+                android:layout_alignEnd="@+id/tv_datetext"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:layout_alignTop="@+id/tv_codetext"
+                android:layout_toRightOf="@+id/tv_codetext"
+                android:layout_alignRight="@+id/tv_date"
+                android:layout_alignEnd="@+id/tv_date" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
