@@ -1,2 +1,2 @@
-#SimpleMusicPlay
-简易的播放器
+#MessageSmSCode
+自动获取并复制4-8位数字验证码
